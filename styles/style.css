@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+main {
+    max-width: 1351px;
+    margin: 0 auto;
+}
 
 .text-primary {
     color: #FD6E0A;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+
 }
 
 .dark-2 {
@@ -51,17 +59,18 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    font-size: 40px;
+
 }
 
 nav ul li {
     list-style: none;
     margin-right: 36px;
+
 }
 
 nav li a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 .banner {
@@ -79,7 +88,7 @@ nav li a {
 
     font-family: Open Sans;
     font-style: SemiBold;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: 0%;
@@ -108,4 +117,228 @@ nav li a {
     letter-spacing: 0%;
     text-align: left;
 
+}
+
+.about-box {
+    margin: 60px 20px 60px 20px;
+    border-radius: 10px;
+    background: rgba(255, 248, 243, 1);
+    padding: 5px;
+
+
+}
+
+.about {
+    margin: 156px 130px 156px 130px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+
+
+
+
+}
+
+.about-title {
+
+    color: rgba(24, 24, 24, 1);
+
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.about-desc {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-items {
+
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30;
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 20px;
+
+
+}
+
+.about-items :hover {
+    background-color: rgb(94, 245, 220);
+
+}
+
+.a-t {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-style: bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.skills {
+
+    margin: 156px 130px 156px 130px;
+
+}
+
+.skill-subt {
+    color: rgba(24, 24, 24, 1);
+
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.skill-p {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.skill-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+
+
+}
+
+.skill-cards {
+    text-align: left;
+    border-radius: 5px;
+    padding: 16px;
+    height: 300px;
+    margin-right: 5px;
+    box-shadow: 5px 5px 10px rgb(94, 245, 220);
+}
+
+.skill-head {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+
+
+}
+
+
+.skill-cards:hover {
+    background-color: rgb(94, 245, 220);
+}
+
+.sum-title {
+    color: rgba(24, 24, 24, 1);
+
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sum-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    color: rgba(71, 71, 71, 1);
+
+
+}
+
+.s-d-t {
+    color: rgba(71, 71, 71, 1);
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.sum-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.sum-c {
+    padding: 50px;
+    line-height: 30px;
+    margin: 20px;
+
+
+}
+
+footer{
+    padding: 130px 230px;
+    display:flex ;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type='text'], footer input[type="email"] ,footer textarea{ 
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding : 10px 20px ;
+    margin-bottom: 20px;
 }
