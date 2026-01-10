@@ -352,9 +352,20 @@ footer textarea {
 
 @media screen and (max-width:576px) {
 
+    .banner{
+        margin: 20px;
+    }
+    .b-image{
+        width: 100%;
+
+    }
+
     .skill-items,
-    footer {
+    footer , .banner ,nav, nav>ul{
         flex-direction: column;
+    }
+    nav>ul{
+        gap: 20px;
     }
 
     .sum-details {
@@ -380,4 +391,10 @@ footer textarea {
     footer textarea {
         width: calc(100% - 40px);
     }
+}
+@media screen and (min-width:576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
+    }
+    
 }
